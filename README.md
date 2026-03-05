@@ -27,7 +27,7 @@ Evitar la digitación repetitiva de facturas mensuales similares (mismo proveedo
 
 ## Menús
 
-- `Contabilidad > Por pagar > Plantillas de facturas de proveedor`
+- `Contabilidad > Proveedores > Plantillas de facturas de proveedor`
   - `Plantillas`
   - `Generar facturas`
 
