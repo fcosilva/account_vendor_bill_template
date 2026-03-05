@@ -1,0 +1,707 @@
+# Translation for account_vendor_bill_template
+# Language: es_EC
+
+msgid ""
+msgstr ""
+"Project-Id-Version: account_vendor_bill_template 17.0\n"
+"POT-Creation-Date: 2026-03-05 00:00+0000\n"
+"PO-Revision-Date: 2026-03-05 00:00+0000\n"
+"Language: es_EC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: account_vendor_bill_template
+msgid "Vendor Bill Templates"
+msgstr "Plantillas de facturas de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Vendor Bill Template"
+msgstr "Plantilla de factura de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Vendor Bill Template %s"
+msgstr "Plantilla de factura de proveedor %s"
+
+#. module: account_vendor_bill_template
+msgid "Templates"
+msgstr "Plantillas"
+
+#. module: account_vendor_bill_template
+msgid "Generate Bills"
+msgstr "Generar facturas"
+
+#. module: account_vendor_bill_template
+msgid "Generate Vendor Bills"
+msgstr "Generar facturas de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Generate Selected"
+msgstr "Generar seleccionadas"
+
+#. module: account_vendor_bill_template
+msgid "Generate Today"
+msgstr "Generar hoy"
+
+#. module: account_vendor_bill_template
+msgid "Generate Bill"
+msgstr "Generar factura"
+
+#. module: account_vendor_bill_template
+msgid "Generated Bills"
+msgstr "Facturas generadas"
+
+#. module: account_vendor_bill_template
+msgid "Generated Vendor Bills"
+msgstr "Facturas de proveedor generadas"
+
+#. module: account_vendor_bill_template
+msgid "Create Vendor Bill Templates"
+msgstr "Crear plantillas de facturas de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Create Template"
+msgstr "Crear plantilla"
+
+#. module: account_vendor_bill_template
+msgid "Create Template from Vendor Bill"
+msgstr "Crear plantilla desde factura de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Create Templates from Vendor Bills"
+msgstr "Crear plantillas desde facturas de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Create Templates"
+msgstr "Crear plantillas"
+
+#. module: account_vendor_bill_template
+msgid "Template"
+msgstr "Plantilla"
+
+#. module: account_vendor_bill_template
+msgid "Template from %s"
+msgstr "Plantilla desde %s"
+
+#. module: account_vendor_bill_template
+msgid "No templates were created. Selected bills have no invoice lines."
+msgstr "No se crearon plantillas. Las facturas seleccionadas no tienen líneas de factura."
+
+#. module: account_vendor_bill_template
+msgid "Selected vendor bill does not contain invoice lines."
+msgstr "La factura de proveedor seleccionada no contiene líneas de factura."
+
+#. module: account_vendor_bill_template
+msgid "You can only use vendor bills for this action."
+msgstr "Solo puede usar facturas de proveedor para esta acción."
+
+#. module: account_vendor_bill_template
+msgid "Select at least one vendor bill."
+msgstr "Seleccione al menos una factura de proveedor."
+
+#. module: account_vendor_bill_template
+msgid "Select at least one template."
+msgstr "Seleccione al menos una plantilla."
+
+#. module: account_vendor_bill_template
+msgid "Template %s has no lines."
+msgstr "La plantilla %s no tiene líneas."
+
+#. module: account_vendor_bill_template
+msgid "Template %(template)s already generated a vendor bill in %(month)s/%(year)s."
+msgstr "La plantilla %(template)s ya generó una factura de proveedor en %(month)s/%(year)s."
+
+#. module: account_vendor_bill_template
+msgid "Generation day must be between 1 and 31."
+msgstr "El día de generación debe estar entre 1 y 31."
+
+#. module: account_vendor_bill_template
+msgid "Allow duplicate generation in same period"
+msgstr "Permitir generación duplicada en el mismo período"
+
+#. module: account_vendor_bill_template
+msgid "Reference Sequence"
+msgstr "Secuencia de referencia"
+
+#. module: account_vendor_bill_template
+msgid "No sequence configured for this template."
+msgstr "No hay una secuencia configurada para esta plantilla."
+
+#. module: account_vendor_bill_template
+msgid "Edit Sequence"
+msgstr "Editar secuencia"
+
+#. module: account_vendor_bill_template
+msgid "Employee Contract"
+msgstr "Contrato de empleado"
+
+#. module: account_vendor_bill_template
+msgid "Vendor Bills"
+msgstr "Facturas de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Lines"
+msgstr "Líneas"
+
+#. module: account_vendor_bill_template
+msgid "Notes"
+msgstr "Notas"
+
+#. module: account_vendor_bill_template
+msgid "Internal note or concept used in the generated bill."
+msgstr "Nota interna o concepto usado en la factura generada."
+
+#. module: account_vendor_bill_template
+msgid "Generate"
+msgstr "Generar"
+
+#. module: account_vendor_bill_template
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: account_vendor_bill_template
+msgid "Use Reference Sequence"
+msgstr "Usar secuencia de referencia"
+
+#. module: account_vendor_bill_template
+msgid "Prevent Duplicate Period"
+msgstr "Evitar duplicado por período"
+
+#. module: account_vendor_bill_template
+msgid "Auto Generate"
+msgstr "Generación automática"
+
+#. module: account_vendor_bill_template
+msgid "Bill Date Day"
+msgstr "Día de fecha de factura"
+
+#. module: account_vendor_bill_template
+msgid "Last Generated Date"
+msgstr "Última fecha de generación"
+
+#. module: account_vendor_bill_template
+msgid "Next Generation Date"
+msgstr "Próxima fecha de generación"
+
+#. module: account_vendor_bill_template
+msgid "Amount Total"
+msgstr "Total"
+
+#. module: account_vendor_bill_template
+msgid "Partner Bank"
+msgstr "Banco del proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Payment Terms"
+msgstr "Términos de pago"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__partner_id
+msgid "Partner"
+msgstr "Proveedor"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__contract_id
+msgid "Employee Contract"
+msgstr "Contrato de empleado"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__journal_id
+msgid "Journal"
+msgstr "Diario"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__payment_term_id
+msgid "Payment Term"
+msgstr "Término de pago"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__partner_bank_id
+msgid "Partner Bank"
+msgstr "Banco del proveedor"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__l10n_ec_sri_payment_id
+msgid "L10N Ec Sri Payment"
+msgstr "Forma de pago SRI"
+
+#. module: account_vendor_bill_template
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#. module: account_vendor_bill_template
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#. module: account_vendor_bill_template
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: account_vendor_bill_template
+msgid "Analytic Distribution"
+msgstr "Distribución analítica"
+
+#. module: account_vendor_bill_template
+msgid "Bill"
+msgstr "Factura"
+
+#. module: account_vendor_bill_template
+msgid "Company"
+msgstr "Compañía"
+
+#. module: account_vendor_bill_template
+msgid "Create Vendor Bill Template from Bill"
+msgstr "Crear plantilla de factura de proveedor desde factura"
+
+#. module: account_vendor_bill_template
+msgid "Create Vendor Bill Templates from Selected Bills"
+msgstr "Crear plantillas de facturas de proveedor desde facturas seleccionadas"
+
+#. module: account_vendor_bill_template
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: account_vendor_bill_template
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: account_vendor_bill_template
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: account_vendor_bill_template
+msgid "Generate Vendor Bills from Templates"
+msgstr "Generar facturas de proveedor desde plantillas"
+
+#. module: account_vendor_bill_template
+msgid "Generated Count"
+msgstr "Cantidad generada"
+
+#. module: account_vendor_bill_template
+msgid "Generated Move"
+msgstr "Asiento generado"
+
+#. module: account_vendor_bill_template
+msgid "Generation Date"
+msgstr "Fecha de generación"
+
+#. module: account_vendor_bill_template
+msgid "ID"
+msgstr "ID"
+
+#. module: account_vendor_bill_template
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: account_vendor_bill_template
+msgid "Last Generated Move"
+msgstr "Último asiento generado"
+
+#. module: account_vendor_bill_template
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: account_vendor_bill_template
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: account_vendor_bill_template
+msgid "Line"
+msgstr "Línea"
+
+#. module: account_vendor_bill_template
+msgid "Name Prefix"
+msgstr "Prefijo de nombre"
+
+#. module: account_vendor_bill_template
+msgid "Note"
+msgstr "Nota"
+
+#. module: account_vendor_bill_template
+msgid "Price Unit"
+msgstr "Precio unitario"
+
+#. module: account_vendor_bill_template
+msgid "Product"
+msgstr "Producto"
+
+#. module: account_vendor_bill_template
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: account_vendor_bill_template
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: account_vendor_bill_template
+msgid "Show Template Selector"
+msgstr "Mostrar selector de plantilla"
+
+#. module: account_vendor_bill_template
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: account_vendor_bill_template
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: account_vendor_bill_template
+msgid "Template name must be unique by company."
+msgstr "El nombre de la plantilla debe ser único por compañía."
+
+#. module: account_vendor_bill_template
+msgid "Vendor Bill Template Line"
+msgstr "Línea de plantilla de factura de proveedor"
+
+#. module: account_vendor_bill_template
+msgid "Vendor Bill Templates: Auto Generate"
+msgstr "Plantillas de facturas de proveedor: generación automática"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__amount_total
+msgid "Amount Total"
+msgstr "Total"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__auto_generate
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__auto_generate
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__auto_generate
+msgid "Auto Generate"
+msgstr "Generación automática"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__bill_date_day
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__bill_date_day
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__bill_date_day
+msgid "Bill Date Day"
+msgstr "Día de fecha de factura"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__company_id
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__create_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__create_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__create_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__create_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__create_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__create_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__create_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__create_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__display_name
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__display_name
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__display_name
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__display_name
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__generated_count
+msgid "Generated Count"
+msgstr "Cantidad generada"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__generated_move_ids
+msgid "Generated Move"
+msgstr "Asiento generado"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__id
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__id
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__id
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__id
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__last_generated_date
+msgid "Last Generated Date"
+msgstr "Última fecha de generación"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__last_generated_move_id
+msgid "Last Generated Move"
+msgstr "Último asiento generado"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__line_ids
+msgid "Line"
+msgstr "Línea"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__next_generation_date
+msgid "Next Generation Date"
+msgstr "Próxima fecha de generación"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__note
+msgid "Note"
+msgstr "Nota"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__prevent_duplicate_period
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__prevent_duplicate_period
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__prevent_duplicate_period
+msgid "Prevent Duplicate Period"
+msgstr "Evitar duplicado por período"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__sequence_id
+msgid "Reference Sequence"
+msgstr "Secuencia de referencia"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__use_reference_sequence
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__use_reference_sequence
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__use_reference_sequence
+msgid "Use Reference Sequence"
+msgstr "Usar secuencia de referencia"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__write_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__write_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__write_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__write_date
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template__write_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__write_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__write_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__write_uid
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__account_id
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Distribución analítica"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__name
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__price_unit
+msgid "Price Unit"
+msgstr "Precio unitario"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__subtotal
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__tax_ids
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_line__template_id
+msgid "Template"
+msgstr "Plantilla"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__allow_duplicates
+msgid "Allow duplicate generation in same period"
+msgstr "Permitir generación duplicada en el mismo período"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__generation_date
+msgid "Generation Date"
+msgstr "Fecha de generación"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__show_template_selector
+msgid "Show Template Selector"
+msgstr "Mostrar selector de plantilla"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_generate_wizard__template_ids
+msgid "Templates"
+msgstr "Plantillas"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_from_bill_wizard__bill_id
+msgid "Bill"
+msgstr "Factura"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__bill_ids
+msgid "Vendor Bills"
+msgstr "Facturas de proveedor"
+
+#. module: account_vendor_bill_template
+#: model:ir.model.fields,field_description:account_vendor_bill_template.field_vendor_bill_template_batch_from_bills_wizard__name_prefix
+msgid "Name Prefix"
+msgstr "Prefijo de nombre"
+
+#. module: account_vendor_bill_template
+#: model:ir.ui.menu,name:account_vendor_bill_template.menu_vendor_bill_template_root
+#: model:ir.actions.act_window,name:account_vendor_bill_template.action_vendor_bill_template
+msgid "Vendor Bill Templates"
+msgstr "Plantillas de facturas de proveedor"
+
+#. module: account_vendor_bill_template
+#: model:ir.ui.menu,name:account_vendor_bill_template.menu_vendor_bill_template
+msgid "Templates"
+msgstr "Plantillas"
+
+#. module: account_vendor_bill_template
+#: model:ir.ui.menu,name:account_vendor_bill_template.menu_vendor_bill_template_generate
+msgid "Generate Bills"
+msgstr "Generar facturas"
+
+#. module: account_vendor_bill_template
+#: model:ir.actions.server,name:account_vendor_bill_template.action_vendor_bill_template_generate_selected
+#: model:ir.actions.act_window,name:account_vendor_bill_template.action_vendor_bill_template_generate_wizard
+msgid "Generate Vendor Bills"
+msgstr "Generar facturas de proveedor"
+
+#. module: account_vendor_bill_template
+#: model:ir.actions.server,name:account_vendor_bill_template.action_account_move_create_templates_from_bills
+msgid "Create Vendor Bill Templates"
+msgstr "Crear plantillas de facturas de proveedor"
+
+#. module: account_vendor_bill_template
+#: model:ir.actions.act_window,name:account_vendor_bill_template.action_vendor_bill_template_batch_from_bills_wizard
+msgid "Create Templates"
+msgstr "Crear plantillas"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_tree
+msgid "Generate Selected"
+msgstr "Generar seleccionadas"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_tree
+msgid "Generate Today"
+msgstr "Generar hoy"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_form
+msgid "Generate Bill"
+msgstr "Generar factura"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_form
+msgid "Edit Sequence"
+msgstr "Editar secuencia"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_form
+msgid "Generated Bills"
+msgstr "Facturas generadas"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_form
+msgid "Lines"
+msgstr "Líneas"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_form
+msgid "Internal note or concept used in the generated bill."
+msgstr "Nota interna o concepto usado en la factura generada."
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_move_form_inherit_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_from_bill_wizard_form
+msgid "Create Template"
+msgstr "Crear plantilla"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_generate_wizard_form
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_batch_from_bills_wizard_form
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_from_bill_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_generate_wizard_form
+msgid "Generate"
+msgstr "Generar"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_generate_wizard_form
+msgid "Generate Vendor Bills"
+msgstr "Generar facturas de proveedor"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_from_bill_wizard_form
+msgid "Create Template from Vendor Bill"
+msgstr "Crear plantilla desde factura de proveedor"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_batch_from_bills_wizard_form
+msgid "Create Templates from Vendor Bills"
+msgstr "Crear plantillas desde facturas de proveedor"
+
+#. module: account_vendor_bill_template
+#: model_terms:ir.ui.view,arch_db:account_vendor_bill_template.view_vendor_bill_template_batch_from_bills_wizard_form
+msgid "Create Templates"
+msgstr "Crear plantillas"

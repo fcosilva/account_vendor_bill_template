@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_vendor_bill_template_generate_wizard_form" model="ir.ui.view">
+        <field name="name">vendor.bill.template.generate.wizard.form</field>
+        <field name="model">vendor.bill.template.generate.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Generate Vendor Bills">
+                <group>
+                    <field name="generation_date"/>
+                    <field name="allow_duplicates"/>
+                    <field name="show_template_selector" invisible="1"/>
+                    <field name="template_ids" widget="many2many_tags" invisible="not show_template_selector"/>
+                </group>
+                <footer>
+                    <button name="action_generate" string="Generate" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_vendor_bill_template_generate_wizard" model="ir.actions.act_window">
+        <field name="name">Generate Vendor Bills</field>
+        <field name="res_model">vendor.bill.template.generate.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

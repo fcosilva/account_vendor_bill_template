@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_vendor_bill_template_from_bill_wizard_form" model="ir.ui.view">
+        <field name="name">vendor.bill.template.from.bill.wizard.form</field>
+        <field name="model">vendor.bill.template.from.bill.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Create Template from Vendor Bill">
+                <group>
+                    <field name="bill_id"/>
+                    <field name="name"/>
+                </group>
+                <group>
+                    <field name="bill_date_day"/>
+                    <field name="auto_generate"/>
+                    <field name="prevent_duplicate_period"/>
+                    <field name="use_reference_sequence"/>
+                </group>
+                <footer>
+                    <button name="action_create_template" string="Create Template" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

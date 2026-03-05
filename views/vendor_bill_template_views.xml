@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_vendor_bill_template_generate_selected" model="ir.actions.server">
+        <field name="name">Generate Vendor Bills</field>
+        <field name="model_id" ref="model_vendor_bill_template"/>
+        <field name="binding_model_id" ref="model_vendor_bill_template"/>
+        <field name="binding_view_types">list</field>
+        <field name="state">code</field>
+        <field name="code">
+action = {
+    "name": "Generate Vendor Bills",
+    "type": "ir.actions.act_window",
+    "res_model": "vendor.bill.template.generate.wizard",
+    "view_mode": "form",
+    "target": "new",
+    "context": {"active_ids": records.ids},
+}
+        </field>
+    </record>
+
+    <record id="view_vendor_bill_template_tree" model="ir.ui.view">
+        <field name="name">vendor.bill.template.tree</field>
+        <field name="model">vendor.bill.template</field>
+        <field name="arch" type="xml">
+            <tree>
+                <header>
+                    <button name="action_open_generate_wizard" string="Generate Selected" type="object" class="oe_highlight"/>
+                </header>
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="contract_id"/>
+                <field name="journal_id"/>
+                <field name="bill_date_day"/>
+                <field name="amount_total"/>
+                <field name="last_generated_date"/>
+                <field name="next_generation_date"/>
+                <field name="auto_generate"/>
+                <button name="action_generate_bill_today" string="Generate Today" type="object" class="btn-link"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_vendor_bill_template_form" model="ir.ui.view">
+        <field name="name">vendor.bill.template.form</field>
+        <field name="model">vendor.bill.template</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_generate_bill_today" string="Generate Bill" type="object" class="oe_highlight"/>
+                    <button name="action_open_reference_sequence" string="Edit Sequence" type="object"/>
+                    <button name="action_view_generated_bills" string="Generated Bills" type="object"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" type="object" name="action_view_generated_bills" icon="fa-file-text-o">
+                            <field name="generated_count" string="Generated Bills" widget="statinfo"/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="active"/>
+                            <field name="company_id" invisible="1"/>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                            <field name="partner_id"/>
+                            <field name="contract_id"/>
+                            <field name="journal_id"/>
+                            <field name="currency_id"/>
+                            <field name="payment_term_id"/>
+                            <field name="partner_bank_id"/>
+                            <field name="l10n_ec_sri_payment_id"/>
+                        </group>
+                        <group>
+                            <field name="bill_date_day"/>
+                            <field name="auto_generate"/>
+                            <field name="prevent_duplicate_period"/>
+                            <field name="use_reference_sequence"/>
+                            <field name="sequence_id" readonly="1"/>
+                            <field name="last_generated_date" readonly="1"/>
+                            <field name="next_generation_date" readonly="1"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Lines">
+                            <field name="line_ids">
+                                <tree editable="bottom">
+                                    <field name="company_id" column_invisible="1"/>
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="product_id"/>
+                                    <field name="account_id"/>
+                                    <field name="quantity"/>
+                                    <field name="price_unit"/>
+                                    <field name="tax_ids" widget="many2many_tags"/>
+                                    <field name="subtotal" readonly="1"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Notes">
+                            <field name="note" placeholder="Internal note or concept used in the generated bill."/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_vendor_bill_template" model="ir.actions.act_window">
+        <field name="name">Vendor Bill Templates</field>
+        <field name="res_model">vendor.bill.template</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="menu_vendor_bill_template_root"
+        name="Vendor Bill Templates"
+        parent="account.menu_finance_payables"
+        sequence="40"/>
+
+    <menuitem id="menu_vendor_bill_template"
+        name="Templates"
+        parent="menu_vendor_bill_template_root"
+        action="action_vendor_bill_template"
+        sequence="1"/>
+
+    <menuitem id="menu_vendor_bill_template_generate"
+        name="Generate Bills"
+        parent="menu_vendor_bill_template_root"
+        action="action_vendor_bill_template_generate_wizard"
+        sequence="2"/>
+</odoo>

@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vendor_bill_template_account_user,vendor.bill.template account user,model_vendor_bill_template,account.group_account_invoice,1,1,1,1
+access_vendor_bill_template_line_account_user,vendor.bill.template.line account user,model_vendor_bill_template_line,account.group_account_invoice,1,1,1,1
+access_vendor_bill_template_generate_wizard_account_user,vendor.bill.template.generate.wizard account user,model_vendor_bill_template_generate_wizard,account.group_account_invoice,1,1,1,1
+access_vendor_bill_template_from_bill_wizard_account_user,vendor.bill.template.from.bill.wizard account user,model_vendor_bill_template_from_bill_wizard,account.group_account_invoice,1,1,1,1
+access_vendor_bill_template_batch_from_bills_wizard_account_user,vendor.bill.template.batch.from.bills.wizard account user,model_vendor_bill_template_batch_from_bills_wizard,account.group_account_invoice,1,1,1,1
